@@ -1,0 +1,20 @@
+name: aiops-openenv
+version: 1.0.0
+description: OpenEnv-compliant AIOps multi-agent environment for incident detection and remediation
+
+tasks:
+  - log_triage
+  - incident_response
+  - optimization
+
+observation:
+  log: string
+  system_health: float
+  step: int
+  task: string
+
+actions:
+  - scale_up
+  - restart_service
+  - cleanup
+  - monitor
