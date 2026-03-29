@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 pip install -r requirements.txt
