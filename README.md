@@ -102,9 +102,16 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
 
-First, install the required dependencies:
+```bash
+git clone <your-repo-url>
+cd <your-project-folder>
+pip install -r requirements.txt
+
+---
+
+## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
