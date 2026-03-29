@@ -99,3 +99,12 @@ The project implements a simulated AIOps environment where an AI agent interacts
 git clone <your-repo-url>
 cd <your-project-folder>
 pip install -r requirements.txt
+
+---
+
+## ▶️ How to Run
+
+First, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
