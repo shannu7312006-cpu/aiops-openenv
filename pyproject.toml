@@ -1,0 +1,10 @@
+[project]
+name = "aiops-openenv"
+version = "0.1.0"
+description = "AIOps OpenEnv simulation environment"
+authors = [{name = "Shanmuk"}]
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
