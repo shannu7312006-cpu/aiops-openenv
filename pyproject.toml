@@ -3,7 +3,15 @@ name = "aiops-openenv"
 version = "0.1.0"
 description = "AIOps OpenEnv simulation environment"
 authors = [{name = "Shanmuk"}]
-dependencies = []
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openenv>=0.2.0"
+]
+
+[project.scripts]
+server = "api:app"
 
 [build-system]
 requires = ["setuptools"]
